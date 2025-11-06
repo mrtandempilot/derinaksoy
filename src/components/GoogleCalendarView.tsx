@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useGoogleCalendar } from '../hooks/useGoogleCalendar';
 import { useBookings } from '../hooks/useBookings';
 import { Calendar, RefreshCw, LogIn, LogOut, Plus } from 'lucide-react';
-import type { Booking } from '../types';
 
 export function GoogleCalendarView() {
   const { 
